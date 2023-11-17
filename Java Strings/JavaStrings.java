@@ -1,21 +1,13 @@
-package java_syntax;
+package java_strings;
 
-/*A package in Java is used to group related classes.
-Think of it as a folder in a file directory*/
-
-public class JavaSyntax {
-    /*Every line of code that runs in Java must be inside a class.
-     In our example, we named the class JavaSyntax.
-     A class should always start with an uppercase first letter.
-     Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.*/
+public class JavaStrings {
     public static void main(String[] args) {
-        /*
-        # public -it's the access specifier means from every where we can access it.
-        # static -access modifier means we can call this method directly using a class name without creating an object of it.
-        # void - it's the return type. void doesn't return anything.
-        # main - The Java main method is usually the first method  its the entry point for executing a Java program.
-        # string [] args - it accepts only string type of argument.
-        */
-        System.out.println("Hello Maruf");
+        // Java Strings are used for Storing Text
+        String greeting ="Hello Sir";
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println("The length of the txt string is: " + txt.length());
+        //many of string function available in intellij idea.
+        // to use those function you have to write text dot then suggestion all function from by default
+        // like txt. then you see suggested function
     }
 }
