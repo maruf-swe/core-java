@@ -7,7 +7,7 @@ public class Continue {
         int a = 10;
         for (int i = 0; i < a; i++) {
             if (i == 5) {
-                continue;
+                continue; // continue statement is executed and continue next iteration
             }
             System.out.println(i);
         }
