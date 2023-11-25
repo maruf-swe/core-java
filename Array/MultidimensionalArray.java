@@ -1,4 +1,5 @@
 package array;
+
 //Multidimensional arrays are useful when you want to store data as a tabular form, like a table with rows and columns.
 
 public class MultidimensionalArray {
