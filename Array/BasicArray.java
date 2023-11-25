@@ -5,6 +5,7 @@ package array;
     To declare an array, define the variable type with square brackets:
 
  */
+
 public class BasicArray {
     public static void main(String[] args) {
         // declare Array of String
@@ -13,7 +14,6 @@ public class BasicArray {
         // declare array of Int
 
         int[] numbers = {1,2,3,4,5};
-
 
         // Access the element of Array
         System.out.println(cars[1]);
