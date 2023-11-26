@@ -1,22 +1,21 @@
 package if_else;
 
-/*
-Syntax of if-else Statement
-if (condition)
-{
-    // Executes this block if
-    // condition is true
-}
-else
-{
-    // Executes this block if
-    // condition is false
-}
-*/
-
 public class IfElse {
     public static void main(String[] args) {
+
         /*
+        Syntax of if-else Statement
+        if (condition)
+        {
+        // Executes this block if
+        // condition is true
+        }
+        else    
+        {
+            // Executes this block if
+            // condition is false
+        }
+
         Java Conditions and If Statements
         Less than: a < b
         Less than or equal to: a <= b
@@ -25,9 +24,11 @@ public class IfElse {
         Equal to a == b
         Not Equal to: a != b
         # Note that if is in lowercase letters
+        
         */
 
         //# Example of If
+        
         int a = 20, b = 10;
         if (a > b) {
             System.out.println("20 is grater");
