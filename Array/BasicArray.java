@@ -8,6 +8,10 @@ package array;
 
 public class BasicArray {
     public static void main(String[] args) {
+        int intArray[];    //declaring array
+        intArray = new int[20];  // allocating memory to array
+        int[] intArray = new int[20]; // combining both statements in one
+        
         // declare Array of String
         String[] cars = {"BMW", "Mercedes", "Volvo"};
 
