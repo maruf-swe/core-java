@@ -1,5 +1,19 @@
 package if_else;
 
+/*
+Syntax of if-else Statement
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+else
+{
+    // Executes this block if
+    // condition is false
+}
+*/
+
 public class IfElse {
     public static void main(String[] args) {
         /*
