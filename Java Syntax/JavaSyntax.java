@@ -6,7 +6,7 @@ Think of it as a folder in a file directory*/
 public class JavaSyntax {
     /*Every line of code that runs in Java must be inside a class.
      In our example, we named the class JavaSyntax.
-     A class should always start with an uppercase first letter.
+     A class should always start with an uppercase first letter.(lowercase is allowed but discouraged).
      Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.*/
     public static void main(String[] args) {
         /*
