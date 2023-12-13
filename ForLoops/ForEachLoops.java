@@ -16,6 +16,7 @@ public class ForEachLoops {
     public static void main(String[] args) {
 
         //Example 1: Print Array Elements
+        
         int[] numbers = {3, 9, 5, -5};
         // for each loop
         for (int number : numbers) {
