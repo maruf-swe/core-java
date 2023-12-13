@@ -23,6 +23,7 @@ public class ForEachLoops {
         }
 
         //Example 2: Sum of Array Elements
+        
         int[] numbers2 = {3, 4, 5, -5, 0, 12};
         int sum = 0;
         // iterating through each element of the array
