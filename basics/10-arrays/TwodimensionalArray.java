@@ -1,6 +1,6 @@
 package arrays;
 
-public class MultidimensionalArray {
+public class TwodimensionalArray {
     public static void main(String[] args) {
         /*
         A multidimensional array in Java is essentially an array of arrays, where each element of the main array can hold another array.
