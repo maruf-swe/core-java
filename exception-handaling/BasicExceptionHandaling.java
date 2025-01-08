@@ -14,6 +14,24 @@ public class BasicExceptionHandaling {
         Errors: These are not exceptions, but serious issues that typically can’t be recovered from. They are subclasses of java.lang.Error.
                 Example: OutOfMemoryError, StackOverflowError
 
+        3. Exception Hierarchy:
+        java.lang.Throwable (the root class)
+        java.lang.Error
+        java.lang.Exception
+        java.lang.RuntimeException (Unchecked exceptions)
+        Checked exceptions
+
+        4. Exception Handling Mechanism:
+        Try Block: Code that might throw an exception is enclosed in a try block.
+        Catch Block: Used to catch exceptions that are thrown in the try block. Multiple catch blocks can be used
+                to handle different types of exceptions.
+        Finally Block: Code inside the finally block is always executed after the try block, regardless of whether an exception
+                occurred or not. It is typically used to clean up resources (like closing files or database connections).
+        Throw: The throw statement is used to explicitly throw an exception.
+        Throws: The throws keyword is used in a method signature to declare exceptions that may be thrown by the method.
+
+
+
          */
     }
 }
