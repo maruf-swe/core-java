@@ -1,6 +1,6 @@
-package basic;
+package exceptionhandling;
 
-public class BasicExceptionHandaling {
+public class BasicExceptionHandling {
     public static void main(String[] args) {
         /*
         1. What is an Exception?

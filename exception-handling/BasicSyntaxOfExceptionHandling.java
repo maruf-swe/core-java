@@ -1,6 +1,6 @@
-package basic;
+package exceptionhandling;
 
-public class BasicSyntaxOfExeptionHandaling {
+public class BasicSyntaxOfExceptionHandling {
     public static void main(String[] args) {
         /*
         Here's the core syntax for exception handling in Java:

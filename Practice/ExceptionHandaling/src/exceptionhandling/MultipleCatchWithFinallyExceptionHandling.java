@@ -1,8 +1,9 @@
-package exceptionhandling;
+package basic;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class TryCatchExceptionHandling {
+public class MultipleCatchWithFinallyExceptionHandling {
     public static void main(String[] args) {
         try {
             Scanner scanner = new Scanner(System.in);
@@ -14,6 +15,12 @@ public class TryCatchExceptionHandling {
             System.out.println("The Result is: " + x);
         } catch (ArithmeticException e) {
             System.out.println("You can't divided by Zero");
+        } catch (InputMismatchException e) {
+            System.out.println("Enter the valid input for expectation output");
+        } catch (Exception e) {
+            System.out.println("Something Went Wrong");
+        } finally {
+            System.out.println("This always Print");
         }
     }
 

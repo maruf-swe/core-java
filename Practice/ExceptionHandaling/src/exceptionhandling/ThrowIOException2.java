@@ -1,6 +1,7 @@
-package exceptionhandling;
+package basic;
 
 import java.io.IOException;
+import java.util.logging.FileHandler;
 
 public class ThrowIOException2 {
     public void readFile(String filePath) throws IOException {
