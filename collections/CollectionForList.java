@@ -2,7 +2,7 @@ package collection;
 
 import java.util.List;
 
-public class CollectionForArrayList {
+public class CollectionForList {
     public static void main(String[] args) {
         // Create a list
         List<String> fruits = new java.util.ArrayList<>();
