@@ -14,5 +14,8 @@ public class ProtectedAccessModifierTest {
         ProtectedAccessModifierDog dog = new ProtectedAccessModifierDog("Tommy");
         dog.showInfo();
         dog.bark();
+        ProtectedAccessModifierAnimal animal = new ProtectedAccessModifierAnimal("Melvin"); // access from same package
+        System.out.println(animal.name);
+        animal.speak();
     }
 }
