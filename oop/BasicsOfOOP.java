@@ -24,7 +24,7 @@ An object mainly consists of:
     Identity: It is a unique name given to an object that enables it to interact with other objects.
     Method: A method is a collection of statements that perform some specific task and return the result to the caller
 
-   ****  Basics of OOP (Object-Oriented Programming)
+   ****  OOP (Object-Oriented Programming)
             OOP is a programming paradigm based on the concept of objects, which are instances of classes. It is designed to promote
                      modularity, reusability, and organization of code.
 
