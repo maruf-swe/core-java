@@ -17,7 +17,7 @@ class Default {
     }
 }
 
-public class DefaultConstructors {
+public class DefaultConstructor {
     public static void main(String[] args) {
         // Create an object of the class
         Default obj = new Default();
