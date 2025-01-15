@@ -22,9 +22,9 @@ Disadvantages:
 
  */
 
-public class PublicAccessModifier {
+public class PublicAccessModifierMain {
     public static void main(String[] args) {
-        PublicAccessCar myCar = new PublicAccessCar();
+        PublicAccessModifierCar myCar = new PublicAccessModifierCar();
         myCar.carModel = "BMW 5th Edition";
         myCar.startEngine();
         System.out.println(myCar.carModel);

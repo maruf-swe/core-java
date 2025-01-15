@@ -9,7 +9,7 @@ In a non-subclass (in the same package): Accessible.
 In a non-subclass (in a different package): Not accessible.
 
  */
-public class ProtectedAccessModifierTest {
+public class ProtectedAccessModifierMain {
     public static void main(String[] args) {
         ProtectedAccessModifierDog dog = new ProtectedAccessModifierDog("Tommy");
         dog.showInfo();

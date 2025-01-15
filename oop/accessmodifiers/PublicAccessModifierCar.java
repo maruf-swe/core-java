@@ -1,6 +1,6 @@
 package javaoop.accessmodifiers;
 
-public class PublicAccessCar {
+public class PublicAccessModifierCar {
     public String carModel;
 
     public void startEngine() {

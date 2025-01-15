@@ -1,6 +1,6 @@
 package javaoop.accessmodifiers;
 
-public class PrivateAccessModifierTest {
+public class PrivateAccessModifierMain {
     public static void main(String[] args) {
         PrivateAccessPerson person = new PrivateAccessPerson("Alice", 30);
 
