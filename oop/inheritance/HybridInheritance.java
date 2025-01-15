@@ -34,7 +34,7 @@ class Pigeon extends F implements Monkey, Parrot {
     }
 }
 
-public class MultipleInheritanceExtendAndImplements {
+public class HybridInheritance {
     public static void main(String[] args) {
         Pigeon pigeon = new Pigeon();
         pigeon.eat(); // Method from Animal
