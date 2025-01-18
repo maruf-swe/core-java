@@ -2,7 +2,7 @@ package exceptionhandling;
 
 import java.io.IOException;
 
-public class ThrowIOException {
+public class StructureOfThrowIOException {
     public static void main(String[] args) {
         /*
         What is an IOException?
